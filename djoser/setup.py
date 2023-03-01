@@ -7,5 +7,4 @@ setup(name='djoser',
     author='Andrey Kan',
     author_email='list@livewings.com',
     license='MIT',
-    packages=['djoser'],
     zip_safe=False)
