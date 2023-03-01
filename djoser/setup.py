@@ -1,7 +1,7 @@
 from setuptools import setup
  
-setup(name='djoser',
-    version='1.0.3',
+setup(name='spotassist-djoser',
+    version='1.0.5',
     description='Spotassist Djoser',
     url='https://github.com/tevch/djoser.git',
     author='Andrey Kan',
