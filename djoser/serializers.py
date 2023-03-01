@@ -138,7 +138,7 @@ class UserFunctionsMixin:
                 is_active=is_active,
                 **{self.email_field: self.data.get(self.email_field, "")},
             )
-            #No need to block unusable passwords - we try to reset one. thats it
+            #No need to block unusable passwords - we try to reset one.
             #if user.has_usable_password():
             #    return user
         except User.DoesNotExist:
