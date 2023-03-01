@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "djoser"
-version = "0.0.0"  # managed by plugin
+version = "1.0.7"  # managed by plugin
 description = "REST implementation of Django authentication system."
 authors = [
   "Sunscrapers <info@sunscrapers.com>",
