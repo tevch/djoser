@@ -141,6 +141,7 @@ class UserFunctionsMixin:
             #No need to block unusable passwords - we try to reset one.
             #if user.has_usable_password():
             #    return user
+            return user
         except User.DoesNotExist:
             pass
         if (
